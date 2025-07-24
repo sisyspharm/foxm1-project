@@ -18,19 +18,19 @@ _For Manuscript Figures_
 ---
 
 ## Figure 2  
-**2D: Similarity dynamics of FOXM1 sensor**  
+**2B: Similarity dynamics of FOXM1 sensor**  
 - **Scripts:** `cct_collectdata.m`, `cct_plot_cct_foxm1.m`  
 - **Description:** Generates “wanderlust” plots comparing nuclear intensity across parental, FOXM1 sensor, and DHFR sensor cell lines.  
 
-**2E: FOXM1 trajectories – TMP effect**  
+**2C: FOXM1 trajectories – TMP effect**  
 - **Script:** `cct_plot_cct_foxm1.m`  
 - **Description:** Compares DHFR sensor nuclear intensity trajectories ± TMP.  
 
-**2F: Synchronization effect on FOXM1 dynamics**  
+**2E: Synchronization effect on FOXM1 dynamics**  
 - **Script:** `fitparams_cycif_plot_bar_time12.m`  
 - **Description:** Bar graph of cell-cycle phase distribution at 6 h under serum starvation, nocodazole, and untreated conditions.  
 
-**2G: Synchronization effect – treatment comparison**  
+**2F: Synchronization effect – treatment comparison**  
 - **Script:** `fitparams_plot_compare_treatment_with_tmp.m`  
 - **Description:** Plots nuclear intensity vs. time for serum starvation, nocodazole, and untreated ± TMP.  
 
@@ -59,9 +59,13 @@ _For Manuscript Figures_
 ---
 
 ## Figure 4  
-**4B: Single-cell dividing time details**  
-- **Script:** `plot_details_diving_time.m`  
-- **Description:** Scatter plot of individual cell division times under each treatment.  
+**4A: Growth rate of cells**  
+- **Script:** `GR_plot.prism`  
+- **Description:** Time series of cell count under each treatment.
+
+**4B: Cell arrest in G1**  
+- **Script:** `steptmp_cycif_thymidine_plot_bar_untreated.m`  
+- **Description:** Bar graphs comparing asynchronous cell-cycle distributions without and with TMP.
 
 **4C: First dividing time**  
 - **Script:** `plot_box_diving_time.m`  
@@ -71,26 +75,22 @@ _For Manuscript Figures_
 - **Script:** `plot_bar_percent_second_div.m`  
 - **Description:** Bar graph showing percentage of cells undergoing a second division.  
 
-**4E & 4F: Cell arrest in G1**  
-- **Script:** `steptmp_cycif_thymidine_plot_bar_untreated.m`  
-- **Description:** Bar graphs comparing asynchronous cell-cycle distributions without and with TMP.  
-
-**4G: Tracking – Serum Starvation**  
+**4E: Tracking – Serum Starvation**  
 - **Script:** `plot_tracking_g1_constant_tmp.m`  
 - **Description:** Time series of N/C ratio for single cells under serum starvation ± TMP.  
 
-**4H: Tracking – Double Thymidine**  
+**4F: Tracking – Double Thymidine**  
 - **Script:** `plot_tracking_s_constant_tmp.m`  
 - **Description:** Time series of N/C ratio for single cells under double thymidine ± TMP.  
 
-**4I: Initial activation rate – Serum Starvation**  
+**4G: Initial activation rate – Serum Starvation**  
 - **Script:** `plot_peak_amplitude_g1_constant_tmp.m`  
 - **Description:** Box plot comparing fitted Vₘₐₓ (peak amplitude) and peak time under serum starvation.  
 
-**4J: Tracking – Pulse TMP treatment**  
+**4H: Tracking – Pulse TMP treatment**  
 - **Script:** `plot_tracking_s_pulse_tmp.m`  
 - **Description:** Time series of N/C ratio for single-cell tracks in an add–remove–add TMP paradigm.  
 
 ---
 
-> **Note:** Only the `.m` scripts used to generate each panel’s quantitative analysis are listed here. Graphics or image-only panels are not included.
+> **Note:** Only the scripts used to generate each panel’s quantitative analysis are listed here. Graphics or image-only panels are not included.
